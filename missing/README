@@ -1,10 +1,13 @@
 # What is missing
 
 ## Terraform
-I ran into some problems with Terraform, and it's connection to AWS. I am still provining here the attemotss that I had while trying to make it work.
+I ran into some problems with Terraform, and it's connection to AWS. 
+I am still providing here the attempts that I had while trying to make it work.
 
 ##Docker Compose
-I also faced some difficulty with this method. I believe my private VPS couldnºt handle it, as I could create 3 instances and alternate between them, but started to have errors a bit later. I also provide here my attempts, for your reference if needed.
+I also faced some difficulty with this method. 
+I believe my private VPS couldnºt handle it, as I could create 3 managed instances and alternate between them, but started to have errors a bit later. 
+So, I also provide the compose file, for your reference if needed.
 
 
 
