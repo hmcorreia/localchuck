@@ -1,7 +1,7 @@
 ---
 - name: Fetch the repo from GitHub
   git:
-    repo: 'https://github.com/hmcorreia/localchuck.git'             git@github.com:hmcorreia/localchuck.git
+    repo: 'https://github.com/hmcorreia/localchuck.git'            
     clone: yes
     dest: ./flask-app
     force: yes
