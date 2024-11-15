@@ -41,11 +41,11 @@ http://89.43.33.172:8000/
 7. Tested remotely
 
 ## Execution:
-# Clone the GIT repo:
+### Clone the GIT repo:
 
   $ git clone https://github.com/hmcorreia/localchuck.git
 
-# Execute the playbook
+### Execute the playbook
  
   $ cd localchuck/ansible
   
