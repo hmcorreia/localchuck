@@ -42,10 +42,12 @@ http://89.43.33.172:8000/
 
 ## Execution:
 1.Clone the GIT repo:
+  
   git clone https://github.com/hmcorreia/localchuck.git
+
 2. Execute the playbook
+
   cd localchuck/ansible
   ansible-playbook site.yml
-Run the followinng playbook
-ansible-playbook site.yml
+
 
