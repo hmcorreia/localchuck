@@ -6,13 +6,7 @@
     dest: ./flask-app
     force: yes
 
-- name: Docker Build
-  shell: docker build --tag chuck-docker .
+- name: Docker-compose up -d
+  shell: docker-compose up -d --build --remove-orphans
   args:
-    chdir: ./flask-app
-    
-- name: Docker Run
-  shell: docker run -p 8000:5000 chuck-docker
-  args:
-    chdir: ./flask-app
-
+    chdir: ./flask-app/app
